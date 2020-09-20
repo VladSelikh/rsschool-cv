@@ -18,3 +18,26 @@ Among my strengths that help in my aspirations are:
 1. Ability to work with multiple tasts
 1. Good comunication skills
 1. Very calm, but at the same time precise character<br/>
+## Key Skills<br/>
+* HTML/CSS (basics)
+* JavaScript (basics)
+* Adobe Photoshop (Advanced)
+* Adobe Premiere Pro (Advanced)
+* Adobe Illustrator (Advanced)
+## Code Examples (JS)<br/>
+```
+function pow() {
+        let a=prompt('Enter number x...');
+        let x=+a;
+        let b=prompt('Enter number n...');
+        let n=+b;
+        if (a===null || b===null|| isNaN(x) || isNaN(n)) {
+            return confirm('You have entered invalid parameters!');
+    } else if (n<0 || n%1!==0) {
+        return confirm('n parameter should be positive number upper 0!');
+    } else  {
+        return alert(x**n);
+    }
+}
+    pow();
+```
