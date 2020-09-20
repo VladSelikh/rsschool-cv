@@ -10,7 +10,7 @@ Education in the university game me some basics of economics, math and computer 
 * agency's support for arising booking questions (only at the very beginning - first 4-5 months);
 * collecting the marketing data regarding competitors' special offers, commission programs, discount for tourists and so on;
 * comparision of prices for touristic services between the company and competiotors, composing the results using MS Excel Tool and sending it to the manager for him/her to make operational decisions on this basis;
-* comparision of prices for accomadation of this year to the previous one to indicate the possible gap that could cause demand decline.
+* comparision of prices for accomadation of this year to the previous one to indicate the possible gap that could cause demand decline.<br>
 After 2 years in this position I realized that my current job did not contributed to my growth as a professional because of continuously repeating tasks and (what is _more important_) to improving my English.<br/>
 So with great interest to programming and web development and great desire to learn more I desided to pave my way in the world of Frond-End Development.<br/>
 Among my strengths that help in my aspirations are:
@@ -44,6 +44,6 @@ function pow() {
 ## Trainings And Cources<br/>
 * **EPAM SoftWare Testing Introduction - August, 2020**
 ## Education<br/>
-* **Belarussian State Economic University**
+* **Belarussian State Economic University**<br/>
 September, 2014 - June, 2018
 ## English Level - A2<br/>
