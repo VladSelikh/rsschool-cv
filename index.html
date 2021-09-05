@@ -10,10 +10,12 @@
 <body>
   <header class="page-header">
     <div class="container">
-      <a class="header-email" href="mailto:vladikh2405@gmail.com">vladikh2405@gmail.com</a><br />
-      <a class="header-phone" href="tel:+375445804077">+375445804077 - Viber</a> <br />
-      Vlad Selikh - Skype <br />
-      <a href="https://vk.com/id205332073" target="_blank">VK page</a><br />
+      <ul class="no-bullets">
+        <li><a class="header-email" href="mailto:vladikh2405@gmail.com">vladikh2405@gmail.com</a></li>
+        <li><a class="header-phone" href="tel:+375445804077">+375445804077 - Viber</a></li>
+        <li>Vlad Selikh - Skype</li>
+        <li><a href="https://vk.com/id205332073" target="_blank">VK page</a></li>
+      </ul>
     </div>
   </header>
 
@@ -82,7 +84,7 @@
           let n =+ b;
           if (a === null || b === null|| isNaN(x) || isNaN(n)) {
               return confirm('You have entered invalid parameters!');
-          } else if (n < 0 || n % 1 !== 0) {
+          } else if (n &lt; 0 || n % 1 !== 0) {
           return confirm('n parameter should be positive number upper 0!');
           } else  {
           return alert(x ** n);
@@ -93,9 +95,9 @@
       <pre><code>
         let n = prompt ('Enter the end of the array!');
         let mess = '';
-        for (let m = 2; m <= n; m++) {
+        for (let m = 2; m &lt;= n; m++) {
         let del = 0;
-        for (let i = 1; i <= m; i++) {
+        for (let i = 1; i &lt;= m; i++) {
         if (m % i == 0) {
             del++;
         }
@@ -111,7 +113,7 @@
   <section class="portfolio">
     <div class="container">
       <h2 class="subheading">Education</h2>
-      <ul>
+      <ul class="no-bullets">
         <li>
           <h3>Belarussian State Economic University</h3>
           <i>September, 2014 - June, 2018</i>
@@ -122,7 +124,7 @@
 
   <section class="portfolio">
     <div class="container">
-      <h2 class="subheading">Trainings And Cources</h2>
+      <h2 class="subheading">Trainings And Courses</h2>
       <ul>
         <li>
           <h3>EPAM SoftWare Testing Introduction</h3>
@@ -136,18 +138,31 @@
     </div>
   </section>
 
+  <section class="portfolio">
+    <div class="container">
+      <h2 class="subheading">English level</h2>
+      <ul class="no-bullets">
+        <li>
+          <h3>B2+</h3>
+        </li>
+      </ul>
+    </div>
+  </section>
+
   <footer class="page-footer">
     <div class="wrapper">
-    <div class="rs-school">
-      <a class="logo" href="https://rs.school/js/"><img src="rs_school_js.svg" width="120" alt="RS School Logo"></a>
+      <div class="rs-school">
+        <a class="logo" href="https://rs.school/js/"><img src="rs_school_js.svg" width="120" alt="RS School Logo"></a>
+      </div>
+      <div class="container">
+        <ul class="no-bullets">
+          <li><a class="header-email" href="mailto:vladikh2405@gmail.com">vladikh2405@gmail.com</a></li>
+          <li><a class="header-phone" href="tel:+375445804077">+375445804077 - Viber</a></li>
+          <li>Vlad Selikh - Skype</li>
+          <li><a href="https://vk.com/id205332073" target="_blank">VK page</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="container">
-      <a class="footer-email" href="mailto:vladikh2405@gmail.com">vladikh2405@gmail.com</a><br />
-      <a class="footer-phone" href="tel:+375445804077">+375445804077 - Viber</a> <br />
-      Vlad Selikh - Skype <br />
-      <a href="https://github.com/VladSelikh" target="_blank">Git Hub Account</a><br />
-    </div>
-  </div>
   </footer>
 </body>
 
