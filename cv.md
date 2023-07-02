@@ -57,3 +57,13 @@ function pow() {
 
 pow();
 ```
+
+## Trainings And Cources
+
+- **EPAM SoftWare Testing Introduction** - August, 2020
+
+## Education
+
+- **Belarussian State Economic University** - September, 2014 - June, 2018
+
+## English Level - B2+
