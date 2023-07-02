@@ -21,3 +21,39 @@ And I realize that it is about time to grow in other sphere and become "T-shaped
 - writing manual testing documentation: test cases, bug reports, using Linear bug tracking system
 - support of the existing tests
 - participation in scrum ceremonies: daily stand-up, sprint planning, backlog refinement
+
+## My strengths
+
+1. Great responsibility and self-organization
+2. Ability to work with multiple tasks
+3. Good communication skills
+4. Very calm, but at the same time precise character
+
+## Key Skills
+
+- UI and API testing (Advanced)
+- JavaScript / TypeScript (Advanced)
+- WebdriverIO(Advanced)
+- Cypress (Advanced)
+- Playwright (Advanced)
+- Jenkins (Advanced)
+
+## Code Examples (JS)
+
+```javascript
+function pow() {
+  const a = prompt("Enter number x...");
+  const x = +a;
+  const b = prompt("Enter number n...");
+  const n = +b;
+  if (a === null || b === null || isNaN(x) || isNaN(n)) {
+    confirm("You have entered invalid parameters!");
+  } else if (n < 0 || n % 1 !== 0) {
+    confirm("n parameter should be positive number upper 0!");
+  } else {
+    alert(x ** n);
+  }
+}
+
+pow();
+```
