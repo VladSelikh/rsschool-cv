@@ -6,7 +6,7 @@ body {
     line-height: 32px;
     color: #222222;
     background-color: #f2f4f6;
-    background-image: url("../images/hero-bg.jpg");
+    background-image: radial-gradient(#ffffff, #031e36);
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -20,6 +20,30 @@ body {
 .page-header {
     margin: 0 0 160px;
     padding: 32px 0 32px;
+    display: flex;
+}
+
+ul.navigation {
+    display: flex;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+ul.navigation a {
+    color: #ffffff;
+}
+
+ul.contacts {
+    list-style-type: none;
+}
+
+ul.contacts a {
+    color: #ffffff;
+}
+
+.navigation li:hover {
+    text-decoration: underline;
+    color: #ffffff;
 }
 
 .page-header .container,
@@ -30,7 +54,7 @@ body {
 
 .page-header a {
     margin-left: 56px;
-    color: #288be6;
+    color: #021220;
     text-decoration: none;
     background-repeat: no-repeat;
     background-position: left;
@@ -47,7 +71,7 @@ body {
 }
 
 .hero-image {
-    margin-bottom: 620px;
+    margin-bottom: 120px;
 }
 
 .hero-image .container {
@@ -57,7 +81,6 @@ body {
 
 .heading {
     margin: 0 0 16px;
-    font-family: "Old Standard TT", "Times", "Times New Roman", serif;
     font-size: 88px;
     line-height: 96px;
     font-weight: 400;
@@ -71,30 +94,86 @@ body {
 
 .intro {
     margin: 0 0 120px;
-  }
-  
-  .subheading {
+}
+
+.subheading {
     margin: 0 0 30px;
-    font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-    font-size: 64px;
+    font-size: 48px;
     line-height: 80px;
+    font-style: italic;
     font-weight: 400;
     text-align: center;
-  }
-  
-  .user-image {
+}
+
+.user-image {
     margin: 0 0 32px;
     text-align: center;
-  }
-  
-  .intro h3,
-  .portfolio h3 {
+}
+
+.intro h3,
+.portfolio h3 {
     margin: 0 0 5px;
     font-size: 28px;
     line-height: 40px;
     font-weight: 500;
-  }
-  
-  .intro p {
+}
+
+.intro p {
     margin: 0 0 32px;
-  }
+}
+
+.portfolio {
+    margin: 0 0 120px;
+}
+
+.projects {
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.projects li:before {
+    content: '✓';
+    position: relative;
+    left: -10px;
+}
+
+.page-footer {
+    padding: 40px 0;
+    color: #ffffff;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper div {
+    flex: 1;
+}
+
+.page-footer a {
+    color: inherit;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.page-footer .logo {
+    color: inherit;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.footer-email {
+    padding-left: 30px;
+    background-image: url("../images/icon-email-footer.svg");
+}
+
+.footer-phone {
+    padding-left: 30px;
+    background-image: url("../images/icon-phone-footer.svg");
+}
