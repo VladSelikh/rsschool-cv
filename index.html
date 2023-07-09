@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Uladzislau Selikh CV</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <nav>
+        <ul class="navigation">
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code_examples">Code Examples</a></li>
+          <li><a href="#projects">Projects List</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#trainings">Trainings</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <ul class="contacts">
+        <li><a class="header-email" href="mailto:vladikh2405@gmail.com">vladikh2405@gmail.com</a></li>
+        <li><a class="header-phone" href="tel:+375445804077">+375445804077</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-image">
+      <div class="container">
+        <h1 class="heading">Uladzislau Selikh</h1>
+        <h2>Junior Front-End Developer</h2>
+        <figure class="user-image">
+          <img src="../images/Vlad.jpg" width="600" alt="Uladzislau Selikh Photo">
+        </figure>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="container">
+        <h2 id="experience" class="subheading">My Story</h2>
+        <p>My main goal is to become a high-qualified Front-End Developer and Technical Specialist.</p>
+        <p>Education in the university gave me some basics of economics, math and computer science. So my first job as
+          <b>marketing analyst in TEZ Tour Ltd.</b> was directly connected to <i>math and economics</i>.
+        </p>
+        <p>But after that I decided implement and expand my knowledge and become an IT specialist, and specifically - QA
+          Automation Engineer with <b><i>JavaScript / Typescript</i></b> technological stack. After successfully grading
+          the
+          courses in <b>EPAM Systems</b> I brought this idea to life.
+        <p>And I realize that it is about time to grow in other sphere and become "T-shaped" specialist.</p>
+        <h2>My main duties include:</h2>
+        <ul>
+          <li>writing web automation tests with Playwright test automation tool on TypeScript</li>
+          <li>writing tests automation scripts for mobile applications with WebdriverIO/Appium test automation tool on
+            TypeScript</li>
+          <li>new functionality manual testing</li>
+          <li>writing manual testing documentation: test cases, bug reports, using Linear bug tracking system</li>
+          <li>support of the existing tests</li>
+          <li>participation in scrum ceremonies: daily stand-up, sprint planning, backlog refinement</li>
+        </ul>
+        <h2>My strengths</h2>
+        <ol>
+          <li>Great responsibility and self-organization</li>
+          <li>Ability to work with multiple tasts</li>
+          <li>Good communication skills</li>
+          <li>Very calm, but at the same time precise character</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <div class="container">
+        <h2 id="skills" class="subheading">My key skills</h2>
+        <ul>
+          <li>UI and API automation testing (Advanced)</li>
+          <li>JavaScript / TypeScript (Advanced)</li>
+          <li>WebdriverIO (Advanced)</li>
+          <li>Cypress (Advanced)</li>
+          <li>Playwright (Advanced)</li>
+          <li>Jenkins (Advanced)</li>
+          <li>B2+ level of speaking and writing English</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <div class="container">
+        <h2 id="code_examples" class="subheading">Code Examples</h2>
+        <h3>Pow of a digit (initialized by user)</h3>
+        <pre><code>
+          function pow() {
+            const a = prompt("Enter number x...");
+            const x = +a;
+            const b = prompt("Enter number n...");
+            const n = +b;
+            if (a === null || b === null || isNaN(x) || isNaN(n)) {
+              confirm("You have entered invalid parameters!");
+            } else if (n < 0 || n % 1 !== 0) {
+              confirm("n parameter should be positive number upper 0!");
+            } else {
+              alert(x ** n);
+            }
+          }
+          
+          pow();
+        </code></pre>
+        <h3>Function to convert RGBA color value to HEX format (TypeScript)</h3>
+        <pre><code>
+          export function rgbaToHex(r: number, g: number, b: number, a: number) {
+            const maxOpacityValue = 'ff'
+        
+            const outParts = [
+                r.toString(16),
+                g.toString(16),
+                b.toString(16),
+                Math.round(a * 255)
+                    .toString(16)
+                    .substring(0, 2),
+            ]
+        
+            let result: string = ''
+        
+            // Pad single-digit output values
+            outParts.forEach(function (part, i) {
+                result += part.length === 1 ? (outParts[i] = '0' + part) : part
+            })
+        
+            return `#${
+                result.endsWith(maxOpacityValue)
+                    ? result.replace(maxOpacityValue, '')
+                    : result
+            }`
+        }
+    </code></pre>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <div class="container">
+        <h2 id="projects" class="subheading">My past projects</h2>
+        <ul class="projects">
+          <li><a href="https://github.com/VladSelikh/HelloWorldOfAQA" target="_blank">Simple API testing suite with TypeScript / Axios
+              stack in use</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <div class="container">
+        <h2 id="education" class="subheading">Education</h2>
+        <ul>
+          <li>
+            <h3>Belarusian State Economic University</h3>
+            <i>September, 2014 - June, 2018</i>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <div class="container">
+        <h2 id="trainings" class="subheading">Trainings And Courses</h2>
+        <ul>
+          <li>
+            <h3>EPAM Test Automation Training</h3>
+            <i>December 2020 - March 2021</i>
+          </li>
+          <li>
+            <h3>EPAM SoftWare Testing Introduction</h3>
+            <i>August 2020</i>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="wrapper">
+      <div class="rs-school">
+        <a class="logo" href="https://rs.school/js/"><img src="../images/rs_school_js.svg" width="120"
+            alt="RS School Logo"></a>
+        <p>© 2023 by Uladzislau Selikh</p>
+      </div>
+      <div class="container">
+        <ul class="contacts">
+          <li><a class="footer-email" href="mailto:vladikh2405@gmail.com">vladikh2405@gmail.com</a></li>
+          <li><a class="header-phone" href="tel:+375445804077">+375445804077</a></li>
+          <li><a href="https://github.com/VladSelikh" target="_blank">Git Hub Account</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
