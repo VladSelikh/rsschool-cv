@@ -68,3 +68,33 @@ body {
     font-size: 32px;
     line-height: 48px;
 }
+
+.intro {
+    margin: 0 0 120px;
+  }
+  
+  .subheading {
+    margin: 0 0 30px;
+    font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .user-image {
+    margin: 0 0 32px;
+    text-align: center;
+  }
+  
+  .intro h3,
+  .portfolio h3 {
+    margin: 0 0 5px;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+  
+  .intro p {
+    margin: 0 0 32px;
+  }
