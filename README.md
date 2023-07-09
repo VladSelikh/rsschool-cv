@@ -1,2 +1,4 @@
 # rsschool-cv
-RSS Repository For CV
+
+<https://VladSelikh.github.io/rsschool-cv>
+<https://VladSelikh.github.io/rsschool-cv/cv>
