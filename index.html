@@ -100,7 +100,7 @@
             const n = +b;
             if (a === null || b === null || isNaN(x) || isNaN(n)) {
               confirm("You have entered invalid parameters!");
-            } else if (n < 0 || n % 1 !== 0) {
+            } else if (n &lt; 0 || n % 1 !== 0) {
               confirm("n parameter should be positive number upper 0!");
             } else {
               alert(x ** n);
